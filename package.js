@@ -1,6 +1,6 @@
 Package.describe({
   name: 'makalu:react-stripe-checkout',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: "react-stripe-checkout 1.7.0 by Adam Zmenak, repackaged for Meteor.",
   git: 'https://github.com/makalu/meteor-stripe-checkout.git',
   documentation: 'README.md'
