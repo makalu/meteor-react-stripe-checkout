@@ -1,14 +1,14 @@
 Package.describe({
-  name: 'makalu:react-document-title',
+  name: 'makalu:react-stripe-checkout',
   version: '0.0.1',
-  summary: "react-document-title 2.0.0 by Dan Abramov, repackaged for Meteor.",
-  git: 'https://github.com/makalu/meteor-react-document-title.git',
+  summary: "react-stripe-checkout 1.7.0 by Adam Zmenak, repackaged for Meteor.",
+  git: 'https://github.com/makalu/meteor-stripe-checkout.git',
   documentation: 'README.md'
 });
 
 Npm.depends({
   'exposify': '0.4.3',
-  'react-document-title': '2.0.0'
+  'react-stripe-checkout': '1.7.0'
 });
 
 Package.onUse(function(api) {
@@ -16,9 +16,9 @@ Package.onUse(function(api) {
   api.imply(['react-runtime@0.13.3_6']);
 
   api.add_files([
-    'react-document-title.browserify.options.json',
-    'react-document-title.browserify.js'
+    'react-stripe-checkout.browserify.options.json',
+    'react-stripe-checkout.browserify.js'
   ]);
 
-  api.export('DocumentTitle');
+  api.export('ReactStripeCheckout');
 });

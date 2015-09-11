@@ -1,5 +1,5 @@
 # Install
-`meteor add makalu:react-document-title`
+`meteor add makalu:react-stripe-checkout`
 
 # Usage
-Read the [react-document-title documentation](https://github.com/gaearon/react-document-title) for more information.
+Read the [react-stripe-checkout documentation](https://github.com/azmenak/react-stripe-checkout) for more information.
