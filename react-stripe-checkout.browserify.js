@@ -1,1 +1,1 @@
-ReactStripeCheckout = require('react-stripe-checkout');
+StripeCheckout = require('react-stripe-checkout');

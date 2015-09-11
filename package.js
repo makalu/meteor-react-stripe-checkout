@@ -20,5 +20,5 @@ Package.onUse(function(api) {
     'react-stripe-checkout.browserify.js'
   ]);
 
-  api.export('ReactStripeCheckout');
+  api.export('StripeCheckout');
 });
